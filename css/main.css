@@ -19,13 +19,17 @@ h2 {
   font-size: 35px
 }
 h3 {
-
+  font-size: 35px;
+  font-weight: normal;
 }
 h4 {
   font-size: 40px;
   font-weight: 100;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
 p {
   font-size: 25px
 }
@@ -58,4 +62,30 @@ table {
   }
 #how_recycle_cup {
   height: 384px
+}
+#coffee_menu {
+  float: left;
+  height: 768px;
+  width: 100%;
+  text-align: center;
+}
+#coffee_menu_left_side {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+#coffee_menu_right_side {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+#coffee_menu_center {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+#jjbean {
+  height: 768px;
+  width: 100%;
+  text-align: center;
 }
