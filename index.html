@@ -15,20 +15,7 @@
     </head>
     <body>
       <div id="welcome_page">
-          <h1>SAVING THE WORLD ONE CUP AT A TIME.<h1>
-      </div>
-      <div id="main_question_page">
-        <table style="height: 768px">
-          <tr>
-            <td>HOW DO I REDUCE WASTE</td>
-          </tr>
-          <tr>
-            <td><h4>WHAT DO YOU WANT TO LEARN?</h4></td>
-          </tr>
-          <tr>
-            <td>HOW DO I RECYCLE MY COFFEE CUPS?</td>
-          </tr>
-        </table>
+          <h1><a id="start" href="#">TOUCH TO START</a><h1>
       </div>
       <div id="coffee_menu">
           <br>
@@ -39,7 +26,7 @@
           <br>
         <div id="coffee_menu_left_side">
           <h3>
-          <a href="#jjbean">JJ BEAN</a>
+          <a id="jjbean" href="#">JJ BEAN</a>
           <br>
           <br>
           <br>
@@ -54,7 +41,7 @@
         </div>
         <div id="coffee_menu_center">
           <h3>
-          STARBUCKS
+          <a id="starbs" href="#">STARBUCKS</a>
           <br>
           <br>
           <br>
@@ -83,14 +70,22 @@
           </h3>
         </div>
       </div>
-      <div id="jjbean">
-        <h1>TAKING APART: JJ BEAN PAPER CUPS</h1>
-        <img src="img/coffeeyo.png" width="1024px" height="658px" margin="none">
+      <div id="jjbean_page">
+        <h5>TAKING APART: JJ BEAN PAPER CUPS</h5>
+        <img src="img/coffeeyo.png" width="1024px" margin="none">
         <h2>
-          <a href="#coffee_menu">I WANT TO CHOOSE ANOTHER</a>
+          <a id="thechoice" href="#">I WANT TO CHOOSE ANOTHER > </a>
         </h2>
       </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <br>
+      <div id="starbucks_page">
+        <h5>TAKING APART: STARBUCKS PAPER CUPS</h5>
+        <img src="img/starbs.png" width="1024px" margin="none">
+        <h2>
+          <a id="thechoice_starbs" href="#">I WANT TO CHOOSE ANOTHER > </a>
+        </h2>
+      </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
